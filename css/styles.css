@@ -214,7 +214,7 @@ img {
 .filter-button:hover,
 .filter-button:focus {
   color: #FFFFFF;
-  background-color: #404BBF;
+  background-color: var(--pressed_state-color);
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
