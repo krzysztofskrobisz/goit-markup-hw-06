@@ -547,16 +547,21 @@ img {
 
 /*Footer Styles*/
 
+.footer {
+  background-color: var(--hero_background-color);
+  padding: 100px 0;
+  /* margin: 0 auto; */
+}
+
 .footer-container {
   display: flex;
   align-items: baseline;
   justify-content: start;
 }
 
-.footer {
-  background-color: var(--hero_background-color);
-  padding: 100px 0;
-  /* margin: 0 auto; */
+.logo-container {
+  max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-navigation-logo {
@@ -582,6 +587,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.socials-container {
+  max-width: 208px;
+  margin-right: 80px;
 }
 
 .text-socials {
